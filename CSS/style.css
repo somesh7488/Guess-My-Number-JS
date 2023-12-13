@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+/* Layout */
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div .again {
+    font-size: 50px;
+    margin: 30px;
+    padding: 20px;
+}
+
+header div p {
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+header {
+    border-bottom: 10px solid white;
+}
+
+.number {
+    font-size: 80px;
+    background-color: rgb(246, 113, 113);
+    padding: 20px;
+    width: 130px;
+    position: relative;
+    top: 70px;
+    left: 44%;
+    justify-content: center;
+}
+
+/*  */
+
+main {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.guess {
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    display: block;
+}
+
+.checkBtn {
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.message {
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+
+.label-score {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.label-highscore {
+    font-size: 30px;
+}
+
+
+/* media queries */
+@media only screen and (min-width:700px) and (max-width:970px) {
+
+    header div .again {
+        font-size: 20px;
+        margin: 30px;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    header div p {
+        font-size: 20px;
+    }
+    .number{
+        left: 37%;
+    }
+    .guess{
+        padding: 15px;
+        width: 150px;
+        font-size: 30px;
+    }
+    
+    .checkBtn {
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .message {
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    
+    .label-score {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .label-highscore {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width:500px) and (max-width:700px) {
+    header div .again {
+        font-size: 20px;
+        margin: 30px;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 15px;
+    }
+
+    header div p {
+        font-size: 15px;
+    }
+    .number{
+        left: 34%;
+    }
+
+    .guess{
+        padding: 10px;
+        width: 120px;
+        font-size: 20px;
+    }
+    
+    .checkBtn {
+        font-size: 20px;
+        padding: 5px;
+        margin-top: 20px;
+        margin-left: 7px;
+    }
+
+    .message {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    .label-score {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .label-highscore {
+        font-size: 15px;
+    }
+}
